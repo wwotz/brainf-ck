@@ -18,11 +18,6 @@ main(int argc, char **argv)
 {
 	bf_compiler_t *compiler;
 	compiler = bf_compiler_create(BF_LOC_DISK, "hello-world.bf");
-	if (!compiler) {
-		fprintf(stderr, "failed to create bf compielr!\n");
-		exit(EXIT_FAILURE);
-	}
-
 	bf_compiler_exec(compiler, "hello-world.c");
 	bf_compiler_free(compiler);
 	return 0;
