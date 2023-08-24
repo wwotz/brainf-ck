@@ -23,4 +23,5 @@ main(int argc, char **argv)
 	return 0;
 }
 ```
-Where `hello-world.bf` is a file containing BrainF*ck code that prints: ```Hello World!```.
+Where `hello-world.bf` is a file containing BrainF*ck code that prints: ```Hello World!```, and
+`hello-world.c` is the file that you want to write the transpiled C code to.
